@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 import * as types from '../action-types'
 
 export const getMovies = (query) => async (dispatch) => {
